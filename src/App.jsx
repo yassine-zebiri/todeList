@@ -4,7 +4,7 @@ import { useState } from 'react';
 
 
 function App() {
-  const[arr,setArr]=useState([{data:"yassine1",date:"10/10/1010"},{data:"yassine2",date:"10/10/1010"},{data:"yassine3",date:"10/10/1010"},])
+  const[arr,setArr]=useState([])
   const[text,setText]=useState('');
   const date=new Date();
 
